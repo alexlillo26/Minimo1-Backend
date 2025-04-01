@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "outDir": "./build",
+      "rootDir": "./src",
+      "module": "CommonJS",
+      "target": "ES6",
+      "moduleResolution": "Node",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitAny": true,
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "build"]
+  }
+  
